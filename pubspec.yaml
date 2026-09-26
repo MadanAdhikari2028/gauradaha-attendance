@@ -1,0 +1,22 @@
+name: gauradaha_attendance
+description: "गौरादह नगरपालिका शिक्षक हाजिरी प्रणाली"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^3.5.0
+  local_auth: ^2.2.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
